@@ -1,4 +1,4 @@
-﻿name: Release
+name: Release
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
       - name: Download source code
         uses: actions/checkout@v2
       - name: Configure git
-        runs: |
+        run: |
           git config user.name "github-actions"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - name: Bump version
