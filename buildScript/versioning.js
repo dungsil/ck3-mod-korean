@@ -5,8 +5,7 @@ function readVersion (contents) {
 }
 
 function writeVersion (contents, nextVersion) {
-  const currentVersion = readVersion(contents)
-  return contents.replace(currentVersion, nextVersion)
+  return contents.replace(readVersion(contents), nextVersion)
 }
 
 module.exports.readVersion = readVersion

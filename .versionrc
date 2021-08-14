@@ -4,6 +4,8 @@
     { "type": "add", "section": "New mod"},
     { "type": "mod", "section": "Add translation" },
     { "type": "del", "section": "Delete mod" },
+
+    { "type": "feat", "hidden": true },
     { "type": "chore", "hidden": true },
     { "type": "ci", "hidden": true }
   ],
