@@ -1,0 +1,17 @@
+{
+  "folders": [
+		{
+			"path": "."
+		}
+  ],
+  "settings": {
+		"cwtools.debug_mode": true,
+		"cwtools.errors.vanilla": false,
+		"cwtools.trace.server": "verbose"
+	},
+	"extensions": {
+		"recommendations": [
+			"tboby.cwtools-vscode"
+		]
+	}
+}

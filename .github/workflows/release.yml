@@ -1,0 +1,35 @@
+name: Release on GitHub
+
+concurrency:
+  group: ci-release-on-github
+  cancel-in-progress: true
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/deploy-steam-workshop.yml
+      - localization/**/*.yml
+
+jobs:
+  versioning:
+    name: Versioning
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download source code
+        uses: actions/checkout@v2
+      - name: Setup Version manager
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: 'npm'
+      - name: Configure git
+        run: |
+          git config user.name "github-actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Versioning
+        run: npx standard-version
+      - name: Push commit
+        run: git push --follow-tags origin main

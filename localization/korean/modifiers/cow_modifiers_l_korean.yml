@@ -1,0 +1,8 @@
+﻿l_korean:
+ cow_metropolis_holding_build_speed:1 "거대 도시 [buildings|E] 건설 시간"
+
+ cow_metropolis_holding_build_gold_cost:0 "거대 도시 [buildings|E] 건설 비용"
+ 
+ cow_metropolis_holding_holding_build_speed:0 "거대 도시 [holding|E] 건설 시간"
+
+ cow_metropolis_holding_holding_build_gold_cost:0 "거대 도시 [holding|E] 건설 비용"

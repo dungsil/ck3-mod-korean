@@ -1,0 +1,8 @@
+﻿l_korean:
+ game_concept_holding_type_desc:1 "[holdings|E]는 4가지의 유형으로 나뉘어져 있습니다; [castles|E], [cities|E], [temples|E], 그리고 [cow_metropolises|E]. 각 유형은 다른 종류의 [buildings|E]을 건설할 수 있습니다. [ruler|E]의 [government_form|E]가 통치자가 어떤 봉토 유형을 불이익 없이 통치할 수 있는지를 정합니다. 교회의 경우에는 [faith|E]의 [doctrines|E]가 영향을 끼칠 수도 있습니다."
+ game_concept_cow_metropolis_holding:0 "거대 도시 봉토"
+ game_concept_cow_metropolis:0 "거대 도시"
+ game_concept_cow_metropolises:0 "거대 도시"
+ game_concept_cow_metropolis_holdings:0 "거대 도시 봉토"
+ game_concept_cow_metropolis_holding_desc:1 "거대 도시는 가장 부유한 [holding_type|E]으로, [taxes|E]와 [levies|E] 둘 다 충분히 제공합니다. 거대 도시는 [empires|E]와 연관되어 있으며, 또한 극도로 희귀합니다. 또한 [castle|E]처럼 크게 요새화시킬 수 있습니다.\n\n역사적인 거대 도시는 알렉산드리아, 안티오크, 바그다드, 콘스탄티노플, 코르도바, 로마, 예루살렘에 위치해 있습니다."
+

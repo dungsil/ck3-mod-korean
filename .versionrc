@@ -1,0 +1,26 @@
+{
+  "releaseCommitMessageFormat": "chore(release): {{currentTag}}",
+  "types": [
+    { "type": "add", "section": "New mod"},
+    { "type": "mod", "section": "Add translation" },
+    { "type": "del", "section": "Delete mod" },
+
+    { "type": "feat", "hidden": true },
+    { "type": "chore", "hidden": true },
+    { "type": "ci", "hidden": true }
+  ],
+  "bumpFiles": [
+    {
+      "type": "plain-text",
+      "filename": "descriptor.mod",
+      "updater": "./buildScript/versioning.js"
+    }
+  ],
+  "packageFiles": [
+    {
+      "type": "plain-text",
+      "filename": "descriptor.mod",
+      "updater": "./buildScript/versioning.js"
+    }
+  ]
+}

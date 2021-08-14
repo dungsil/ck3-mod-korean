@@ -1,0 +1,23 @@
+name: Deploy on Steam Workshop
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+    - 'v*.*.*'
+
+jobs:
+  deploy-steam-workshop:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download source code
+        uses: actions/checkout@v2
+      - name: steam-workshop-upload
+        uses: weilbyte/steam-workshop-upload@v1
+        with:
+          appid: 1158310 # Game's Steam App ID
+          itemid: 2574847820 # Your mod's Steam Workshop ID
+          path: '.' # Path to your mod's folder from repository root
+        env:
+          STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }} # Your Steam username
+          STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }} # Your Steam password
