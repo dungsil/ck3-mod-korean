@@ -1,0 +1,10 @@
+﻿# Spouse designer (ID: 2298410092)
+
+l_english:
+unlanded_female:1 " "
+unlanded_male:1 " "
+unlanded:1 " "
+SPOUSE_DESIGNER_SPOUSE:1 "배우자"
+SPOUSE_DESIGNER_ADD_SPOUSE:1 "배우자"
+SPOUSE_DESIGNER_OPEN:1 "나만의 배우자 만들기"
+RULER_DESIGNER_FULL_UNLANDED_NAME:2 "[RulerDesignerWindow.GetTitleTierName] #high [RulerDesignerWindow.GetFirstName] [RulerDesignerWindow.GetDynastyName]#!"
