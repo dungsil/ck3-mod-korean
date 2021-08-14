@@ -11,7 +11,7 @@
   ],
   "bumpFiles": [
     {
-      "filename": "descrptor.mod",
+      "filename": "descriptor.mod",
       "updater": "buildScript/versioning.js"
     }
   ]
