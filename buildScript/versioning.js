@@ -1,4 +1,4 @@
-﻿const versionRegex = /^version="((([0-9])\.([0-9])\.([0-9]))(?:-([0-9A-Za-z-.]+))?(?:\+([0-9A-Za-z-.]+))?)"/
+﻿const versionRegex = /^version="((([0-9]+)\.([0-9]+)\.([0-9]+))(?:-([0-9A-Za-z-.]+))?(?:\+([0-9A-Za-z-.]+))?)"/
 
 function readVersion (contents) {
   return versionRegex.exec(contents)[1]
