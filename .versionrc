@@ -1,0 +1,16 @@
+{
+  "releaseCommitMessageFormat": "chore(release): {{currentTag}} [skip ci]",
+  "types": [
+    { "type": "add", "section": "New mod"},
+    { "type": "mod", "section": "Add translation" },
+    { "type": "del", "section": "Delete mod" },
+    { "type": "chore", "hidden": true },
+    { "type": "ci", "hidden": true }
+  ],
+  "bumpFiles": [
+    {
+      "filename": "descrptor.mod",
+      "updater": "buildScript/versioning.js"
+    }
+  ]
+}
