@@ -1,0 +1,22 @@
+﻿# Malta A Kingdom (ID: 2559672569)
+
+l_korean:
+
+ #############################################
+ #General names:
+ baron_malta_order_male:0 "지파장"
+ baron_malta_order_female:0 "지파장"
+ barony_malta_order:0 "기사단 지파"
+ count_malta_order_male:0 "분파장"
+ count_malta_order_female:0 "분파장"
+ county_malta_order:0 "기사단 분파"
+ duke_malta_order_male:0 "기사총감"
+ duke_malta_order_female:0 "기사총감"
+ duchy_malta_order:0 "기사단"
+ king_malta_order_male:0 "기사단장"
+ king_malta_order_female:0 "기사단장"
+ kingdom_malta_order:0 "기사단국"
+ emperor_malta_order_male:0 "대기사단장"
+ emperor_malta_order_female:0 "대기사단장"
+ empire_malta_order:0 "대기사단국"
+ ###########################################

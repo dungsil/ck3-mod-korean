@@ -1,0 +1,16 @@
+﻿# Malta A Kingdom (ID: 2559672569)
+
+l_korean:
+ unite_malta_decision:0 "몰타 기사단 설립"
+ unite_malta_decision_tooltip:0 "신의 영광 아래 몰타 섬의 사람들을 규합하여 [kingdom|E]"
+ unite_malta_decision_confirm:0 "몰타의 새로운 기사단을 설립한다."
+ unite_malta_decision_desc:0 "만약 몰타 섬의 사람들을 하나로 규합할 수 있다면, 우리는 어둠을 밝히기 위한 신의 등불이 되어, 지중해를 통과하는 신성한 군대들의 통로가 될 것입니다."
+ unite_malta_decision_titles_tt:1 "The people of [duchy|E] [title|E] will become [de_jure|E] of the [malte.GetName]"
+ unite_malta_decision_effect_innovations_tt:1 "당신의 문화는 다른 라틴 문화권으로부터 한 가지의 [innovations|E]을 얻습니다."
+
+ elevate_malta_decision:0 "Elevate the Kingdom of Malta into an order of Crusaders"
+ elevate_malta_decision_desc:0 "$c_malta$ is uniquely placed to act as a haven for Crusaders, with easy access to not just North Africa but all of Southern Europe.\n\nAll it needs is someone to show all good crusaders the way, to realize its potential and pave the island with gold and steel!"
+ elevate_malta_decision_tooltip:0 "역사상 가장 위대한 십자군이 되십시오"
+ elevate_malta_decision_confirm:0 "명예를 위하여! 신을 위하여!"
+ elevate_malta_decision_titles_tt:1 "Every Maltese [duchy|E] [title|E] will become [de_jure|E] of the [malte.GetName]"
+ elevate_malta_decision_effects_innovations_tt:1 "The Maltese people in your realm will discover an [innovations|E] from other Latin cultures"
